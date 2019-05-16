@@ -1,0 +1,37 @@
+.signup-form{
+    background: brown;
+    width: 750px;
+    height: 500px; 
+    margin: 100px auto;   
+    box-shadow: 15px 15px 20px black;
+    .signup-text{
+        text-align: center;
+    }
+}
+
+.input-field{
+    padding: 10px 10px;
+    input{
+        height: 25px;
+        width: 50%;
+    }
+}
+
+.signup-form-buttons {
+    button{
+        padding: 20px;
+        width: 375px;
+        align-self: center;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        &:active{
+            transform: translateY(2px);
+        }
+    }
+    .signup-button{
+        background-color: brown;
+        color: white;     
+    }
+}
